@@ -1,0 +1,30 @@
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Project data and outputs (avoid leaking private data)
+# Ignore ALL Excel/CSV data files by default. Remove lines if you intentionally want to track a specific file.
+*.xlsx
+*.xlsm
+*.xls
+*.csv
+
+# Generated result files
+/disc_golf_elo_results.xlsx
+/disc_golf_elo_final_weighted.csv
+/disc_golf_elo_history_weighted.csv
+/disc_golf_elo_snapshots.csv
+
+# Optional project folders for local data/output
+/data/
+/outputs/
